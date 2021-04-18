@@ -2,6 +2,8 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern")
+const Manager = require("./lib/Manager")
+
 
 
 const employees = [];
@@ -14,7 +16,7 @@ function initApp() {
 function addMember() {
     inquirer. prompt([
         {
-            message: "Enter team member's name",
+            message: "Welcome to Team of Champions!!!! Enter team member's name",
             name: "name"
         },
         {
@@ -95,8 +97,8 @@ function startHtml() {
         <title>Team Profile</title>
     </head>
     <body>
-        <nav class="navbar navbar-dark bg-dark mb-5">
-            <span class="navbar-brand mb-0 h1 w-100 text-center">Team Profile</span>
+        <nav class="navbar navbar-dark bg-warning mb-5">
+            <span class="navbar-brand mb-0 h1 w-100 text-center">Team of Champions</span>
         </nav>
         <div class="container">
             <div class="row">`;
