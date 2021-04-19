@@ -12,7 +12,7 @@ This is a Node based application that collects input from user to create a detai
 ![Screenshot-page](images/pagescreenshot.png)
 
 ## Testing
-This program was build using class syntax and constructor functions. The function for each employee type was tested before building out the rest of the program. 
+Ran Jest for testing each employee and all tests passed.
 
 ![Screenshot-tests](images/jestscreenshot.png)
 
