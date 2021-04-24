@@ -5,7 +5,7 @@ This is a Node based application that collects input from user to create a detai
 
 ## Images
 
-![Team Profile Generator in action](./images/portscvid.gif)
+![Team Profile Generator in action](https://youtu.be/6wWahUYPW_M)
 
 
 
